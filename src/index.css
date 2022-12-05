@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #8aaad4;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.quote{
+  width: 80%;
+  background-color: rgb(153, 202, 212);
+  margin: 20px auto;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.quote_title{
+  color: rgb(55, 55, 55);
+}
+.quote_author{
+  text-align: right;
+  font-weight: bold;
+}
+
+.single_quote{
+  width: fit-content;
+  max-width: 60%;
+  background-color: rgb(125, 197, 211);
+  margin: 15% auto;
+  padding: 1% 2%;
+  border-radius: 15px;
+  background-color: white;
+}
+.next{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.single_quote_author{
+  text-align: right;
 }
